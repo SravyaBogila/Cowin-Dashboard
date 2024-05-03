@@ -127,7 +127,7 @@ class CowinDashboard extends Component {
             <h1 className="logo-heading">Co-WIN</h1>
           </div>
           <h1 className="heading">CoWIN Vaccination in India</h1>
-          {this.renderViewsBasedOnAPIStatus}
+          {this.renderViewsBasedOnAPIStatus()}
         </div>
       </div>
     )
